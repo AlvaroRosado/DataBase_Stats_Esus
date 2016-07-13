@@ -4,7 +4,7 @@ var jsonfile = require('jsonfile')
 var file = 'data.json'
 var data;
 var nodemailer = require('nodemailer');
-var transporter = nodemailer.createTransport('smtps://rosadomda%40gmail.com:664601793a@smtp.gmail.com');
+var transporter = nodemailer.createTransport('smtps://');
 var mongoose = require('mongoose');
 var Schema = mongoose.Schema;
 
